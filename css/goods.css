@@ -1,0 +1,313 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-15 11:23:44
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 22:10:36
+*/
+.slide{
+	width:100%; 
+	height: calc(100% - 1rem);	
+	position: fixed;
+	top: 0rem;
+	right: 0;
+	overflow-y: scroll;
+}
+/* 顶部开始 */
+.top{
+	width: 100%;
+	height: 3.86rem;
+}
+.head{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #f16851;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.34rem;
+	color: white;
+}
+.back{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.24rem;
+}
+.back img{
+	width:0.14rem;
+	height: 0.24rem;
+	float: left; 
+	margin:0.13rem 0.18rem 0.13rem 0.18rem ;
+}
+.search{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.2rem;
+	right: 0.91rem;
+}
+.search img{
+	width:0.21rem;
+	height: 0.22rem;
+	float: left; 
+	margin:0.145rem 0.14rem 0.145rem 0.14rem ;
+}
+.share{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.2rem;
+	right: 0.24rem;
+}
+.share img{
+	width:0.25rem;
+	height: 0.25rem;
+	float: left; 
+	margin:0.125rem;
+}
+.picture{
+	width: 7.02rem;
+	height: 2.5rem;
+	margin: 0.24rem;
+}
+/* 顶部结束 */
+/* 内容开始 */
+.main{
+/* 	width: 7.02rem; */
+	height: 2.86rem;
+	margin-left: 0.24rem;
+/* 	margin-top: 
+	position: fixed;
+	top: 3.86rem;
+	left: 0.24rem; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main .first{
+	width: 6.37rem;
+	height: 0.8rem;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main .first .money{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.main .first .money span{
+	font-size: 0.34rem;
+	color: #f16851;
+}
+.main .first .money b{
+	font-size: 0.18rem;
+}
+.main .first .upper{
+	height: 0.38rem;
+	line-height: 0.38rem;
+}
+.main .first .upper .text{
+	font-size: 0.28rem;
+	color: black;
+	font-weight: bolder;
+	float: left;
+}
+.main .first .upper .new{
+	font-size: 0.18rem;
+	width: 0.68rem;
+	height: 0.31rem;
+	border-radius: 0.2rem;
+	border: 1px solid #f16851;
+	text-align: center;
+	color: #f16851;
+	line-height: 0.31rem;
+	float: left;
+	margin-left: 1.5rem;
+}
+.main .first .upper .limit{
+	font-size: 0.18rem;
+	width: 1.1rem;
+	height: 0.31rem;
+	border-radius: 0.2rem;
+	border: 1px solid #f16851;
+	text-align: center;
+	line-height: 0.31rem;
+	color: #f16851;
+	float: left;
+	margin-left: 0.05rem;
+}
+.main .first .center{
+	width: 3.85rem;
+	height: 0.06rem;
+	background-image: url('../img/goods-line.png');
+	background-size: cover;
+}
+.main .first{
+	font-size: 0.18rem;
+	color: #8b8786;
+}
+.main .second{
+	width: 7.02rem;
+	height: 0.8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.main .second .title1{
+	width: 3.3rem;
+	height: 0.5rem;
+	background-image: url('../img/goods-title1.png');
+	background-size: cover;
+}
+.main .second .text{
+	font-size: 0.18rem;
+	color: #8b8786;
+}
+.main .second .comment{
+	width: 1.3rem;
+	height: 0.46rem;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.46rem;
+	color: white;
+	border-radius: 0.23rem;
+	background-color: #f16851;
+}
+.main .third{
+	width: 7.02rem;
+	height: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main .third .title2{
+	width: 3.5rem;
+	height: 1.05rem;
+	background-image: url('../img/goods-title1.png');
+	background-size: cover;
+}
+.main .third .text{
+	font-size: 0.28rem;
+	color: #8b8786;
+}
+/* 内容结束 */
+/* 商家推荐开始 */
+.recommend{
+/* 	width:100%; */
+	margin-left: 0.24rem;
+	margin-top: 0.8rem;
+/* 	position: fixed;
+	top: 7.38rem;
+	left: 0.24rem; */
+}
+.recommend .title3{
+	width: 4.44rem;
+	height: 0.45rem;
+	background-image: url('../img/goods-title3.png');
+	background-size: cover;
+}
+.recommend ul{
+	width: 7.02rem;
+	float: left;
+	margin-top: 0.5rem;
+}
+.recommend ul li{
+	width: 3.3rem;
+	height: 3.9rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	float: left;
+	box-shadow: 0 0.04rem 0.07rem rgba(241, 104, 81, 0.45);
+	margin-bottom: 0.5rem;
+	margin-right: 0.2rem;
+}
+.recommend ul li:nth-child(2n){
+	margin-right:0;
+}
+.recommend ul li img{
+	width:3.3rem;
+	height: 2rem;
+}
+.recommend ul li h3{
+	font-size: 0.34rem;
+}
+.recommend ul li p{
+	font-size: 0.18rem;
+	color: #b4b4b4;
+}
+.recommend ul li span{
+	font-size: 0.34rem;
+	color: #f16851;
+	margin-bottom: 0.4rem;
+	display: block;
+}
+.recommend ul li b{
+	font-size: 0.18rem;
+	font-weight: normal;
+}
+
+/* 商家推荐结束 */
+/* 底部开始 */
+.footer{
+	width: 7.04rem;
+	height: 1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0.23rem;
+	background: white;
+	box-shadow: 0 0.05rem 0.21rem rgba(191, 191, 191, 1.0);
+	
+}
+.footer .content{
+	width: 5.86rem;
+	height: 0.96rem;
+	margin-left: 1.18rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.footer .content .left{
+	height: 0.72rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer .content .left p{
+	font-size: 0.28rem;
+	color: #b8b8b8;
+}
+.footer .content .money{
+	width: 2.05rem;
+	height: 1rem;
+	background: #545454;
+	text-align: center;
+	font-size: 0.34rem;
+	color: #b8b8b8;
+	line-height: 1rem;
+}
+.footer .picture{
+	width: 0.91rem;
+	height: 0.92rem;
+	position: absolute;
+	left: -1.18rem;
+	top: -0.46rem;
+	z-index: 1;
+}
+.footer .picture img{
+	width: 0.91rem;
+	height: 0.92rem;
+}
+/* 底部结束 */

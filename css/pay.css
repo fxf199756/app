@@ -1,0 +1,268 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-16 00:42:24
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 22:03:00
+*/
+.slide{
+	width:100%; 	
+	height: calc(100% - 1.5rem);
+	position: fixed;
+	top: 0;
+	right: 0;
+	overflow-y: scroll;
+}
+/* 地址信息开始 */
+.address{
+	width: 100%;
+	height: 6.16rem;
+	background-color: #f16851;
+}
+.address .top span{
+	font-size: 0.28rem;
+	color: white;
+	float: left;
+	display: flex;
+	flex-direction: row;
+}
+.top{
+	margin-left: 0.24rem;
+	padding-top: 0.91rem;
+	display: flex;
+	flex-direction: column;
+}
+.address span .company{
+	width: 0.65rem;
+	height: 0.3rem;
+	line-height: 0.25rem;
+	text-align: center;
+	font-size: 0.18rem;
+	color: white;
+	border-radius: 0.16rem;
+	border: 1px solid white;
+}
+.address .second{
+	font-size: 0.34rem;
+	color: white;
+	font-weight: bolder;
+}
+.address .third{
+	font-size: 0.28rem;
+	color: white;
+}
+.address .main{
+	width: 7.05rem;
+	height: 2.47rem;
+	background: white;
+	margin-left: 0.24rem;
+	border-radius: 0.1rem;
+	margin-top: 0.24rem;
+}
+.address .main .text{
+	width: 6.50rem;
+	height: 2.1rem;
+	padding-top: 0.35rem;
+	padding-left: 0.27rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.address .main span{
+	width: 6.34rem;
+	font-size: 0.34rem;
+	font-weight: bolder;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.address .main span i{
+	color: #db2bcd;
+	font-weight: normal;
+}
+.address .main p{
+	font-size: 0.22rem;
+	color: #db2bcd;
+}
+.address .main img{
+	width: 6.58rem;
+	height: 0.29rem;
+}
+.back{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.24rem;
+}
+.back img{
+	width:0.14rem;
+	height: 0.24rem;
+	float: left; 
+	margin:0.13rem 0.18rem 0.13rem 0.18rem ;
+}
+/* 地址信息结束 */
+/* 订单信息开始 */
+.order{
+	width: 7.02rem;
+	position: absolute;
+	top: 5.23rem;
+	right: 0.24rem;
+	z-index: 1;
+}
+.order .upper{
+	width: 7.02rem;
+	height: 6.51rem;
+	border: 1px solid #f9f9f9;
+	background-color: white;
+	border-radius: 0.1rem;
+}
+.order .upper .main{
+	width: 6.73rem;
+	height: 6.06rem;
+	margin-top: 0.17rem;
+	margin-left: 0.14rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.order .upper .main img{
+	width: 6.58rem;
+	height: 0.29rem;
+}
+.order .upper .main h2{
+	font-size: 0.38rem;
+}
+.order .upper .main .text{
+	width: 6.56rem;
+	height: 0.92rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.order .upper .main .text img{
+	width: 1.04rem;
+	height: 0.85rem;
+}
+.order .upper .main .text .point{
+	width: 0.33rem;
+	height: 0.33rem;
+}
+.order .upper .main .text h4{
+	font-size: 0.3rem;
+}
+.order .upper .main .text p{
+	font-size: 0.3rem;
+}
+.order .upper .main .text span{
+	font-size: 0.3rem;
+	font-weight: bolder;
+	color: #db2bcd;
+}
+.order .upper .main .text span i{
+	font-size: 0.18rem;
+}
+.order .upper .main .bag{
+	width: 6.56rem; 
+	font-size: 0.3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.order .upper .main .bag span{
+	font-size: 0.3rem;
+	font-weight: bolder;
+	color: #db2bcd;
+}
+.order .upper .main .bag span i{
+	font-size: 0.18rem;
+}
+.order .upper .main .bag  b{
+	font-size: 0.3rem;
+	color: black;
+	font-weight: normal;
+}
+.order .flower{
+	width: 7.02rem;
+	height: 2.07rem;
+	border: 1px solid #f9f9f9;
+	background-color: white;
+	border-radius: 0.1rem;
+	margin-top: 0.24rem;
+}
+.order .flower .main{
+	height: 1.36rem;
+	margin-top: 0.17rem;
+	margin-left: 0.14rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.order .main .text img{
+	width: 0.33rem;
+	height: 0.33rem;
+}
+.order .flower .main .bag{
+	width: 6.56rem; 
+	font-size: 0.3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.order .flower .main .bag  b{
+	font-size: 0.3rem;
+	color: black;
+	font-weight: normal;
+}
+/* 订单信息结束 */
+/* 底部开始 */
+.footer{
+	width: 100%;
+	height: 1rem;
+	position: fixed;
+	bottom: 0;
+	right: 0rem;
+	z-index: 2;
+	box-shadow: 0 0.05rem 0.21rem rgba(191, 191, 191, 1.0);
+}
+.footer .main{
+	width: 6.556rem;
+	height: 1rem;
+	margin-left: 0.69rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer .main .money{
+	height: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer img{
+	width: 0.135rem;
+	height: 0.135rem;
+}
+.footer span{
+	font-size: 0.3rem;
+	font-weight: bolder;
+	color: #db2bcd;
+}
+.footer span i{
+	font-size: 0.18rem;
+}
+.footer .button{
+	width: 2.09rem;
+	height: 0.69rem;
+	border-radius: 0.35rem;
+	font-size: 0.28rem;
+	color: white;
+	background: #db2bcd;
+	text-align: center;
+	line-height: 0.69rem;
+}
+/* 底部结束 */

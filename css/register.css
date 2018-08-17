@@ -1,0 +1,126 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-15 00:51:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-15 15:32:17
+*/
+body{
+	background-image: url('../img/background1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+/* 注册按钮开始 */
+.register{
+	width: 3.47rem;
+	height: 0.76rem;
+	background:#3d3d3d;
+	font-size: 0.3rem;
+	border-radius: 0.4rem;
+	color: #c1c1c1;
+	text-align: center;
+	line-height: 0.76rem;
+	float: left;
+	position: absolute;
+	top: 11.5rem;
+	right: 1.98rem;
+}
+/* 注册按钮结束 */
+/* 登录按钮开始 */
+.login{
+	width: 1.5rem;
+	height: 0.55rem;
+	border-radius: 0.3rem;
+	background-color: #f16851;
+	font-size: 0.28rem;
+	color: white;
+	position: absolute;
+	top: 0.37rem;
+	right: 0.5rem;
+	float: left;
+	line-height: 0.55rem;
+	text-align: center;
+}
+/* 登录按钮结束 */
+/* 注册信息开始 */
+.name{
+	font-size: 0.26rem;
+	color: #f16851;
+	position: absolute;
+	font-weight: bold;
+	top: 6.12rem;
+	right:3.25rem;
+}
+/* 用户名结束 */
+/* 登录信息开始*/
+.main{
+	width: 5.5rem;
+	height: 3.40rem;
+	border-radius: 0.2rem;
+	background-color: white;
+	position: absolute;
+	top: 5.86rem;
+	left: 0.98rem;
+	z-index: 1;
+}
+.main ul{
+	width: 5.48rem;
+	height: 2.97rem;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main ul li .text{
+	font-size: 0.18rem;
+	color: #f16851;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+.main ul li .text img{
+	width: 0.14rem;
+	height: 0.14rem;
+	margin-right: 0.02rem;
+}
+.main ul li .input{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 0.05rem;
+}
+.main ul li .input img{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.05rem;
+}
+.main ul li .input span{
+	font-size: 0.18rem;
+	color: #f16851;
+}
+.main ul li .input input{
+	width: 1.9rem;
+	height: 0.26rem;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #e5e5e5;
+}
+.line{
+	width: 4.65rem;
+	height: 0.09rem;
+	float: left;
+}
+.code{
+	width: 1.39rem;
+	height: 0.44rem;
+	font-size: 0.14rem;
+	color: white;
+	text-align: center;
+	line-height: 0.44rem;
+	border-radius: 0.1rem;
+	background-color: #db2bcd;
+	margin-left: 0.1rem;
+}
+/* 注册信息结束 */
