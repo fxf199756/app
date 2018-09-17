@@ -64,10 +64,10 @@
 					<i>月售120份&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好评率89%</i>
 					<p></p>
 					<div class="last">
-						<span>20.4<h2>RMB</h2></span>
-						<img src="img/21.png" alt="">
-						<img src="img/21.png" alt="" class="picture1">
-						<div class="count">1</div>
+						<span>18<h2>RMB</h2></span>
+						<img src="img/21.png" alt="" class="add">
+						<img src="img/pay6.png" alt="" class="picture1" style="display: none">
+						<div class="count" style="display: none">1</div>
 					</div>
 				</div>
 			</li>
@@ -134,7 +134,7 @@
 	<div class="footer">
 		<div class="content">
 			<div class="left">
-				<p>33.2RMB(满30元减12元)</p>
+				<p><span>33.2</span>RMB</p>
 				<p>另需配送费3元</p>
 			</div>
 			<a href="pay.html"><div class="money">去结算</div></a>
@@ -142,8 +142,50 @@
 				<img src="img/23.png" alt="">
 			</div>
 		</div>
-
+		<div class="content1">
+			<div class="left">
+				<p>未选购商品</p>
+				<p>另需配送费3元</p>
+			</div>
+			<div class="money">￥20.0起送</div>
+			<div class="picture">
+				<img src="img/22.png" alt="">
+			</div>
+		</div>
 	</div>
 	<!-- 底部结束 -->
 </body>
 </html>
+<script>
+	let add=document.querySelector(".add");
+	let reduce=document.querySelector(".picture1");
+	let price=document.querySelector(".footer .content .left p span");
+	let content1=document.querySelector(".footer .content");
+	let content2=document.querySelector(".footer .content1");
+	let count=document.querySelector(".count");
+	let num=0;
+    console.log(content1, content2);
+    add.onclick=function () {
+	    num++;
+		reduce.style.display="block";
+		count.style.display="block";
+		if (num*18+3>20){
+            content1.style.display="flex";
+            content2.style.display="none";
+		}
+		count.innerText=num;
+		price.innerText=num*18+3;
+    }
+    reduce.onclick=function () {
+        num--;
+
+        if (num*18+3<20){
+            content1.style.display="none";
+            content2.style.display="flex";
+            reduce.style.display="none";
+            count.style.display="none";
+        }
+        count.innerText=num;
+        price.innerText=num*18+3;
+    }
+</script>

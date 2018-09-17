@@ -253,7 +253,7 @@ body,html{
 	width: 5.86rem;
 	height: 0.96rem;
 	margin-left: 1.18rem;
-	display: flex;
+	display: none;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
@@ -287,6 +287,47 @@ body,html{
 	z-index: 1;
 }
 .footer .picture img{
+	width: 0.91rem;
+	height: 0.92rem;
+}
+.footer .content1{
+	width: 5.86rem;
+	height: 0.96rem;
+	margin-left: 1.18rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.footer .content1 .left{
+	height: 0.72rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer .content1 .left p{
+	font-size: 0.28rem;
+	color: #b8b8b8;
+}
+.footer .content1 .money{
+	width: 2.05rem;
+	height: 1rem;
+	background: #545454;
+	text-align: center;
+	font-size: 0.34rem;
+	color: #b8b8b8;
+	line-height: 1rem;
+}
+.footer .content1 .picture{
+	width: 0.91rem;
+	height: 0.92rem;
+	position: absolute;
+	left: -1.18rem;
+	top: -0.46rem;
+	z-index: 1;
+}
+.footer .content1 .picture img{
 	width: 0.91rem;
 	height: 0.92rem;
 }
